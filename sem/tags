@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+P	comm.c	/^int P(int semid,int which)$/;"	f
+PATHNAME	comm.h	9;"	d
+PROJID	comm.h	10;"	d
+SIZE	comm.h	11;"	d
+V	comm.c	/^int V(int semid, int which)$/;"	f
+__COMM__	comm.h	2;"	d
+__buf	comm.h	/^	  	 struct seminfo  *__buf;  \/* Buffer for IPC_INFO(Linux-specific) *\/$/;"	m	union:semun	typeref:struct:semun::seminfo
+array	comm.h	/^		 unsigned short  *array;  \/* Array for GETALL, SETALL *\/$/;"	m	union:semun
+buf	comm.h	/^		 struct semid_ds *buf;    \/* Buffer for IPC_STAT, IPC_SET *\/$/;"	m	union:semun	typeref:struct:semun::semid_ds
+cc	Makefile	/^cc=gcc$/;"	m
+commSem	comm.c	/^int commSem(int nums,int flags)$/;"	f
+creatSem	comm.c	/^int creatSem(int nums)$/;"	f
+destorySem	comm.c	/^int destorySem(int semid)$/;"	f
+gerSem	comm.c	/^int gerSem(int nums)$/;"	f
+initSem	comm.c	/^int initSem(int semid,int which)$/;"	f
+main	test_sem.c	/^int main()$/;"	f
+op_sem	comm.c	/^int op_sem(int semid,int op,int which)$/;"	f
+semun	comm.h	/^union semun {$/;"	u
+tes	Makefile	/^tes=test_sem$/;"	m
+tesSrc	Makefile	/^tesSrc=comm.c test_sem.c$/;"	m
+val	comm.h	/^	     int              val;    \/* Value for SETVAL *\/$/;"	m	union:semun
