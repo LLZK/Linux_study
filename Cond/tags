@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DelNode	producer_consumer.c	/^void DelNode(Node* del)$/;"	f
+DestroyList	producer_consumer.c	/^void DestroyList(Node* head)$/;"	f
+InitList	producer_consumer.c	/^void InitList(Node** head)$/;"	f
+IsEmpty	producer_consumer.c	/^int IsEmpty(Node* head)$/;"	f
+ListNode	producer_consumer.c	/^typedef struct ListNode$/;"	s	file:
+Node	producer_consumer.c	/^}Node;$/;"	t	typeref:struct:ListNode	file:
+Pop_head	producer_consumer.c	/^void Pop_head(Node* head,int *data)$/;"	f
+Push_head	producer_consumer.c	/^void Push_head(Node* head,int data)$/;"	f
+ShowList	producer_consumer.c	/^void ShowList(Node* head)$/;"	f
+_next	producer_consumer.c	/^	struct ListNode* _next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+creatNode	producer_consumer.c	/^Node* creatNode(int data)$/;"	f
+data	producer_consumer.c	/^	int data;$/;"	m	struct:ListNode	file:
+main	producer_consumer.c	/^int main()$/;"	f
+test	producer_consumer.c	/^int test()$/;"	f
+thread_consumer	producer_consumer.c	/^void* thread_consumer(void *arg)$/;"	f
+thread_producer	producer_consumer.c	/^void* thread_producer(void* arg)$/;"	f
