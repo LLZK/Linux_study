@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Dealwithsock	httpd.h	/^void Dealwithsock(int sock)$/;"	f
+FATAL	httpd.h	22;"	d
+SIZE	httpd.h	23;"	d
+WARNING	httpd.h	21;"	d
+__HTTPD_H_	httpd.h	2;"	d
+clear_header	httpd.h	/^void clear_header(int sock)$/;"	f
+echo_cgi	httpd.h	/^int echo_cgi(int sock,const char* method,const char* path,const char* query)$/;"	f
+echo_www	httpd.h	/^int echo_www(int sock,const char* path,int size)$/;"	f
+fun	httpd.c	/^int fun()$/;"	f
+get_line	httpd.h	/^int get_line(int fd,char* buf,int size)$/;"	f
+main	main.c	/^int main(int argc,char* argv[])$/;"	f
+main	wwwroot/cgi/cgifun.c	/^int main()$/;"	f
+print_log	httpd.h	/^void print_log(const char* str,int error)$/;"	f
+startup	httpd.h	/^int startup(const char* ip,const char* port)$/;"	f
+thread_mechine	main.c	/^void* thread_mechine(void* arg)$/;"	f
