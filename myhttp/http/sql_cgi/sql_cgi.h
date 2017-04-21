@@ -51,14 +51,20 @@ class sqlcon
 			}
 			MYSQL_RES *result;
 			MYSQL_ROW row;
+			MYSQL_FIELD *field;
 			int num;
 			result = mysql_store_result(sql);
 			num = mysql_num_fields(result);
 
-			int i = 0;
+			int i;
+
+			while(field = mysql_fetch_field(result))
+			{
+				printf("%s ",field->name);
+			}
 			while(row = mysql_fetch_row(result))
 			{
-				for(;i < num;i++)
+				for(i = 0;i < num;i++)
 				{
 					printf("%s ",row[i] ? row[i] : "NULL");
 				}
